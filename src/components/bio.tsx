@@ -19,28 +19,36 @@ export default function About() {
     >
       <SectionHeading>Bio</SectionHeading>
       <p className="mb-3">
-        I&apos;m a software engineer with a unique journey. After graduating
-        with a degree in Physical Sciences, I decided to follow my passion for
-        programming. I took the leap and enrolled in ALx software engineering,
-        where I honed my skills and discovered my love for building digital
-        solutions. Now, as a dedicated software developer, I combine my
-        scientific background with my programming expertise to create innovative
-        and impactful web applications.
-        <br />
-        My core stack is{" "}
+        <span className="font-medium">Zakaria Ouidane</span>, a software
+        engineer with a unique journey, embarked on a career path after
+        graduating with a degree in{" "}
+        <span className="font-medium">Physical Sciences</span>. Driven by a
+        passion for programming, embarked on a journey in software engineering,
+        where skills were honed and a love for building digital solutions was
+        discovered. Now, as a{" "}
+        <span className="font-medium">dedicated software developer</span>,{" "}
+        <span className="italic">blends scientific background</span> with
+        programming expertise to create innovative and impactful web
+        applications.
+      </p>
+      <p>
+        Proficient in{" "}
         <span className="font-medium">
           React, Next.js, Node.js, and MongoDB
         </span>
-        . I am also familiar with TypeScript. I am always looking to learn new
-        technologies. I am currently looking for a{" "}
+        . with familiarity with TypeScript. Eager to expand the skill set,
+        actively seeking opportunities to learn new technologies. Currently on
+        the lookout for a{" "}
         <span className="font-medium">full-time position</span> as a software
-        developer.
+        developer, aiming to contribute expertise and continue to grow
+        professionally.
       </p>
-
       <p>
-        <span className="italic">When I&apos;m not coding</span>, I enjoy
-        playing video games, watching movies. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>.
+        With a{" "}
+        <span className="font-medium">
+          commitment to excellence and a passion for innovation
+        </span>
+        , poised to make a lasting impact in the field of software engineering.
       </p>
     </motion.section>
   );

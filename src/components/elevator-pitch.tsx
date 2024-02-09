@@ -19,12 +19,28 @@ export default function ElevatorPitch() {
     >
       <SectionHeading>Elevator Pitch</SectionHeading>
       <p>
-        I&apos;m a driven software engineer on a mission to blend creativity and
-        technical expertise. With a background in Physical Sciences and a
-        passion for programming, I thrive on solving complex problems and
-        crafting innovative solutions. From honing my skills at Alx software
-        engineering to becoming a dedicated full-stack developer, I bring a
-        unique perspective to every project.
+        Hello, I&apos;m Ouidane Zakaria. With a{" "}
+        <span className="font-medium">
+          background in software engineering and data analysis
+        </span>
+        , I bring expertise in{" "}
+        <span className="font-medium">
+          full stack development, problem-solving and team collaboration
+        </span>
+        . What sets me apart is my relentless pursuit of excellence and my{" "}
+        <span className="font-medium">
+          ability to deliver high-quality solutions under tight deadlines
+        </span>
+        , adapt to new technologies quickly and communicate effectively across
+        teams. By leveraging these skills, I can streamline processes and drive
+        innovation, ultimately making your job easier.{" "}
+        <span className="font-medium">
+          I&apos;m currently seeking exciting projects to contribute my
+          expertise to
+        </span>
+        . If you&apos;re looking for someone who can elevate your team&apos;s
+        performance, let&apos;s connect and explore how we can work together.
+        Together, we can achieve great things.
       </p>
     </motion.section>
   );

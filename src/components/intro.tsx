@@ -6,11 +6,9 @@ import { motion } from "framer-motion";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
-import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
-  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
     <section
@@ -29,8 +27,8 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/27810820.jpg"
-              alt="Ricardo portrait"
+              src="/logo.jpg"
+              alt="Zakaria portrait"
               width="192"
               height="192"
               quality="95"
@@ -56,23 +54,16 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5]"
+        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] md:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold text-4xl">
-          Hello, I&apos;m Ouidane Zakaria
-        </span>
+        <span className="font-bold">Ouidane Zakaria</span>
         .<br />
         I&apos;m a{" "}
         <span className="font-bold">passionate full stack developer</span> who
         loves building engaging{" "}
-        <span className="italic">websites and apps</span>. I focus on creating{" "}
-        <span className="underline">
-          user-friendly designs and fast responsive experiences
-        </span>
-        . Let&apos;s collaborate to elevate your online presence and make your
-        digital dreams a reality!
+        <span className="italic">websites and apps</span>.
       </motion.h1>
 
       <motion.div

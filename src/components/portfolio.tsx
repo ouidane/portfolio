@@ -2,7 +2,7 @@
 
 import React from "react";
 import SectionHeading from "./section-heading";
-import { portfolioData } from "@/lib/data";
+import { projectsData } from "@/lib/data";
 import Project from "./project";
 import { useSectionInView } from "@/lib/hooks";
 
@@ -13,7 +13,7 @@ export default function Portfolio() {
     <section ref={ref} id="portfolio" className="scroll-mt-28 mb-28">
       <SectionHeading>Portfolio</SectionHeading>
       <div>
-        {portfolioData.map((project, index) => (
+        {projectsData.map((project, index) => (
           <React.Fragment key={index}>
             <Project {...project} />
           </React.Fragment>

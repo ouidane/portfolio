@@ -1,8 +1,3 @@
-import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa6";
-import { LuGraduationCap } from "react-icons/lu";
-
 export const links = [
   {
     name: "Home",
@@ -26,71 +21,23 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
-  {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
-] as const;
-
-export const portfolioData = [
-  {
-    title: "Team video",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: "/corpcomment.png",
-  },
+export const projectsData = [
   {
     title: "Team slide deck",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: "/rmtdev.png",
-  },
-] as const;
-
-export const projectsData = [
-  {
-    title: "CorpComment",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: "/corpcomment.png",
+      "The slide deck provides a comprehensive overview of our collaborative efforts in empowering resilience in coastal regions, showcasing our research findings and innovative solutions.",
+    tags: ["Google Slides", "Miro"],
+    imageUrl: "/team-slide-deck.jpg",
+    projectUrl:
+      "https://docs.google.com/presentation/d/1PceqIyk-ljbrqIsVAON_V7G6bTfuPCbfOZJMM--rnRI/edit?usp=sharing",
   },
   {
-    title: "rmtDev",
+    title: "Team video",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: "/rmtdev.png",
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: "/wordanalytics.png",
+      "In the video, we take you on a journey through our empowering resilience project in coastal regions, highlighting the challenges faced by vulnerable communities and the innovative solutions developed by our team.",
+    tags: ["Youtube", "Clipchamp"],
+    imageUrl: "/team-video.jpg",
+    projectUrl: "https://www.youtube.com/watch?v=4YXM9fAtcbs",
   },
 ] as const;
 

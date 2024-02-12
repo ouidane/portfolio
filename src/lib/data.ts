@@ -28,8 +28,7 @@ export const projectsData = [
       "The slide deck provides a comprehensive overview of our collaborative efforts in empowering resilience in coastal regions, showcasing our research findings and innovative solutions.",
     tags: ["Google Slides", "Miro"],
     imageUrl: "/team-slide-deck.jpg",
-    projectUrl:
-      "https://docs.google.com/presentation/d/1PceqIyk-ljbrqIsVAON_V7G6bTfuPCbfOZJMM--rnRI/edit?usp=sharing",
+    projectUrl: "/empowering-resilience-in-coastal-regions.pdf",
   },
   {
     title: "Team video",
